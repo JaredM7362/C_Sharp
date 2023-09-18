@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="77-771409_barcode-png-images-transparent-background-barcode-png-png.png" />
+    <None Remove="background-images-10.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="ZXing.Net" Version="0.16.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="77-771409_barcode-png-images-transparent-background-barcode-png-png.png" />
+    <Resource Include="background-images-10.jpg" />
+  </ItemGroup>
+
+</Project>
